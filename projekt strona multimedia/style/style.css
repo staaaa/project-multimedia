@@ -8,14 +8,14 @@
 }
 .logo{
     position:absolute;
-    width:150px;
-    height:150px;
+    width:450px;
+    height:450px;
     border-radius:80px;
-    background-color: red;
-    top:10px;
-    left:44%;
+    top:-80px;
+    left:32.5%;
+    z-index: 1;
 }
-.c1, .c2, .c3, .c4, .c5, .c6{
+.c1, .c2, .c3, .c4, .c5, .c6, .c7, .c8, .c9{
     visibility:hidden;
     display:none;
     width:80%;
