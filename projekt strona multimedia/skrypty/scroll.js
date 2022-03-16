@@ -59,4 +59,34 @@ $(document).ready(function(){
             height:"800px",
         },1250);
     });
+    $(".btn7").click(function() {
+        $(".c7").css("display","block");
+        $(".c7").css("visibility","visible");
+        $('html,body').animate({
+            scrollTop: $(".c7").offset().top - 12.5},
+            'slow');
+        $(".c7").animate({
+            height:"800px",
+        },1250);
+    });
+    $(".btn8").click(function() {
+        $(".c8").css("display","block");
+        $(".c8").css("visibility","visible");
+        $('html,body').animate({
+            scrollTop: $(".c8").offset().top - 12.5},
+            'slow');
+        $(".c8").animate({
+            height:"800px",
+        },1250);
+    });
+    $(".btn9").click(function() {
+        $(".c9").css("display","block");
+        $(".c9").css("visibility","visible");
+        $('html,body').animate({
+            scrollTop: $(".c9").offset().top - 12.5},
+            'slow');
+        $(".c9").animate({
+            height:"800px",
+        },1250);
+    });
 });
