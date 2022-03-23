@@ -1,5 +1,5 @@
 :root{
-    --clr-neon: #1dcc2e;
+    --clr-neon: #C2E1C2;
     --clr-bg: #30352e;
 }
 .btn {
@@ -13,6 +13,8 @@
     padding: 0.25em 0.75em;
     border-radius: 0.50em;
     background-color: none;
+    font-family: 'Merriweather', serif;
+    font-family: 'Open Sans', sans-serif;
 
     text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em currentColor;
 
@@ -20,6 +22,7 @@
 
     position: relative;
 }
+
 .btn::after {
     content: "";
     position: absolute;
@@ -38,6 +41,12 @@
 .btn:focus {
     color: var(--clr-bg);
     text-shadow: none;
+    animation:spin 1s ease-in-out forwards;
+}
+@keyframes spin{
+    100%{
+        transform:rotate(360deg) scale(1.3);
+    }
 }
 
 .btn:hover::before,
@@ -48,7 +57,31 @@
 .btn:focus::after {
     opacity: 1;
 }
-.btn_text{
-    position:relative;
-    top:25%;
+.btn_img1,.btn_img2,.btn_img3,.btn_img4,.btn_img5,.btn_img6{
+    position:absolute;
+    border-radius: 10%;
+}
+.btn_img1{
+    top:-45%;
+    left:30%;
+}
+.btn_img2{
+    top:-35%;
+    left:32.5%;
+}
+.btn_img3{
+    top:-50%;
+    left:22.5%;
+}
+.btn_img4{
+    top:-33%;
+    left:24%;
+}
+.btn_img5{
+    top:-80%;
+    left:18%;
+}
+.btn_img6{
+    top:-35%;
+    left:30%;
 }
