@@ -1,6 +1,6 @@
     html,body{
         cursor: url('kursory/favicon.ico'), default;
     }
-    .btn:hover{
+    .btn:hover, .fa:hover, .go_up:hover{
         cursor: url('kursory/favicon_click.ico'), default;
     }
