@@ -1,0 +1,13 @@
+.photo img:hover{
+    filter:blur(4px);
+}
+.podpis{
+    position:relative;
+    bottom:400px;
+    left:0%;
+    visibility: hidden;
+    font-size: 2.5vw;
+}
+.photo img:hover + .podpis{
+    visibility: visible;
+}

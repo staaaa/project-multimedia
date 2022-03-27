@@ -1,5 +1,5 @@
 :root{
-    --clr-neon: #C2E1C2;
+    --clr-neon: #dbcbab;
     --clr-bg: #30352e;
 }
 .btn {
@@ -63,25 +63,25 @@
 }
 .btn_img1{
     top:-45%;
-    left:30%;
+    left:25%;
 }
 .btn_img2{
     top:-35%;
-    left:32.5%;
+    left:27.5%;
 }
 .btn_img3{
     top:-50%;
-    left:22.5%;
+    left:15%;
 }
 .btn_img4{
     top:-33%;
-    left:24%;
+    left:20%;
 }
 .btn_img5{
     top:-2.5%;
-    left:35%;
+    left:28%;
 }
 .btn_img6{
     top:-35%;
-    left:30%;
+    left:25%;
 }
