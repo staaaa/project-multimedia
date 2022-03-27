@@ -10,7 +10,6 @@ header{
     grid-column-end: 8;
     grid-row: 1;
     background-color: #BAC7BE;
-    opacity:0.99;
     font-family: 'Merriweather', serif;
     font-family: 'Open Sans', sans-serif;
     
@@ -41,6 +40,9 @@ header{
     grid-template-rows: 50px auto auto 50px;
     column-gap: 50px;
     row-gap:50px;
+    background-image: linear-gradient(to bottom right,#a4d3a4,#2cd12c);
+    border:3px solid black;
+    border-radius: 5%;
 }
 .btn{
     width:80%;
