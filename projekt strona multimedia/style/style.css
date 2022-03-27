@@ -8,14 +8,14 @@
 }
 .logo{
     position:absolute;
-    width:250px;
-    height:250px;
+    width:18vw;
+    height:18vw;
     border-radius:80px;
     top:-10px;
     left:42%;
     z-index: 1;
 }
-.c1, .c2, .c3, .c4, .c5, .c6, .c7, .c8, .c9{
+.c1, .c2, .c3, .c4, .c5, .c6{
     visibility:hidden;
     display:none;
     width:80%;
@@ -24,3 +24,5 @@
     margin-bottom:50px;
     margin: 75px auto;
 }
+.c1 img{
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;}
