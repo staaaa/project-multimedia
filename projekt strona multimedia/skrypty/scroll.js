@@ -59,4 +59,9 @@ $(document).ready(function(){
             scrollTop: $(".c6").offset().top - 12.5},
             'slow');
     });
+    $(".go_up").click(function() {
+        $('html,body').animate({
+            scrollTop: $("body").offset().top},
+            'slow');
+    });
 });
